@@ -1,0 +1,43 @@
+table {
+    border: 1px;
+    width: 500px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.firstrow {
+    background-color: greenyellow;
+    color: black;
+}
+
+.secondrow {
+    background-color: goldenrod;
+    color: black;
+}
+
+.thirdrow {
+    background-color: red;
+    color: black;
+}
+
+.fourthrow {
+    background-color: rgb(255, 242, 0);
+    color: black;
+}
+.fifthrow{
+    background-color: rgb(0, 183, 255);
+    color: black;
+}
+.sixthrow{
+    background-color: brown
+}
+.seventhrow{
+    background-color: rgb(24, 186, 204);
+}
+.eigthrow{
+    background-color: grey;
+}
