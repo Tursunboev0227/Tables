@@ -1,82 +1,58 @@
+User
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fifth</title>
-    <link rel="stylesheet" href="fourth.css">
+    <title>Table</title>
+    <link rel="stylesheet" href="1.css">
 </head>
 <body>
     <table>
       <tbody>
-        <tr>
-          <td colspan="2"></td>
-          <td colspan="3"></td>
-          <td colspan="3">Morning</td>
-          <td>Launch</td>
-          <td colspan="5">Afternoon</td>
-          <td colspan="3">Evening</td>
+        <tr class="firstrow">
+          <td>Row 1</td>
+          <td></td>
+          <td colspan="2">ColSpan 2</td>
+          <td colspan="2">ColSpan 2</td>
         </tr>
-        <tr>
-          <td rowspan="2" colspan="2"></td>
-          <td colspan="3" rowspan="2"></td>
-          <td rowspan="2" class="time">9 - 10 am</td>
-          <td rowspan="2" class="time">10-11 am</td>
-          <td rowspan="2" class="time">11-11 am</td>
-          <td rowspan="2" class="time">1-2 pm</td>
-          <td rowspan="2" class="time">2-3 pm</td>
-          <td rowspan="2" class="time">4-5 pm</td>
-          <td rowspan="2" class="time">6-7 pm</td>
-          <td rowspan="2" class="time">7-8 pm</td>
-          <td rowspan="2" class="time">8-9 pm</td>
-          <td rowspan="2" class="time">9-9 pm</td>
-          <td rowspan="2" class="time">12-22 pm</td>
-          <td rowspan="2" class="time">12-22 pm</td>
-        </tr>
-        <tr></tr>
-        <tr>
-          <td colspan="2" rowspan="2">Work</td>
-          <td colspan="3">Monday</td>
-          <td colspan="3">
-            Development <br />
-            Meeting
+        <tr class="secondrow">
+          <td>Row 2</td>
+          <td></td>
+          <td colspan="2" rowspan="3">
+            RowSpan 3 <br />ColumnSpan 2
           </td>
-          <td></td>
-          <td colspan="3">Clietn Meeting</td>
-          <td colspan="2">Commute</td>
-          <td colspan="3">Free</td>
-        </tr>
-        <tr>
-          <td colspan="3">Tuesday</td>
-          <td colspan="3">in Office</td>
-          <td></td>
-          <td colspan="8">in Office</td>
-        </tr>
-        <tr>
-          <td colspan="2" rowspan="3">Lecture</td>
-          <td colspan="3">Wednesday</td>
-          <td colspan="3">CSC205</td>
-          <td></td>
-          <td colspan="8">preparation</td>
-        </tr>
-        <tr>
-          <td colspan="3" rowspan="2">Thursday</td>
-          <td colspan="3" rowspan="2">MAM200</td>
-          <td rowspan="2"></td>
-          <td colspan="3" rowspan="2">
-            Tutorials <br />
-            for <br />
-            MAM200
+          <td colspan="2" rowspan="5">
+            RowSpan 5 <br />ColumnSpan 2
           </td>
-          <td colspan="5" rowspan="2">Free</td>
         </tr>
-        <tr></tr>
-        <tr>
-          <td colspan="2">Research</td>
-          <td colspan="3">Friday</td>
-          <td colspan="3">Research</td>
+        <tr class="thirdrow">
+          <td>Row 3</td>
           <td></td>
-          <td colspan="8">Research</td>
+        </tr>
+        <tr class="fourthrow">
+          <td >Row 4</td>
+          <td rowspan="5">RowSpan 5</td>
+        </tr>
+        <tr class="fifthrow">
+          <td>Row 5</td>
+          <td colspan="2">ColumnSpan 2</td>
+        </tr>
+        <tr class="sixthrow">
+          <td>Row 6</td>
+          <td colspan="2">ColumnSpan 2</td>
+        </tr>
+        <tr class="seventhrow">
+          <td>Row 7</td>
+          <td></td>
+          <td colspan="2">ColumnSpan 2</td>
+          <td></td>
+        </tr>
+        <tr class="eigthrow">
+          <td>Row 8</td>
+          <td></td>
+          <td colspan="2">ColumnSpan 2</td>
+          <td></td>
         </tr>
       </tbody>
     </table>
